@@ -30,14 +30,18 @@
                         <div class="sect1--logos">
                             <div class="sect1--logos-row">
                                 <p>주최</p>
-                                <img src="./common/img/logo_01.png" alt="">
-                                <img src="./common/img/logo_02.png" alt="">
+                                <div class="sect1--logoWrap">
+                                    <img src="./common/img/logo_01.png" alt="">
+                                    <img src="./common/img/logo_02.png" alt="">
+                                </div>
                             </div>
                             <div class="sect1--logos-row">
                                 <p>주관</p>
-                                <img src="./common/img/logo_03.png" alt="">
-                                <img src="./common/img/logo_04.png" alt="">
-                                <img src="./common/img/logo_05.png" alt="">
+                                <div class="sect1--logoWrap">
+                                    <img src="./common/img/logo_03.png" alt="">
+                                    <img src="./common/img/logo_04.png" alt="">
+                                    <img src="./common/img/logo_05.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -156,8 +160,10 @@
         <div id="sect3" class="sect3--sekai">
             <div class="sect3--sekai-wrap">
                 <!-- <div class="sect3--box"><img src="./common/img/sekai_art.png" alt=""></div> -->
-                <div class="sect3--title"><p>세계유산 미디어아트</p></div>
-                <div class="sect3--box sect3--sub"><p>시민과 함께 즐기는 한밤의 힐링 축제로<br><b>시대의 소망을 담다</b></p></div>
+                <div class="sect3--text">
+                    <div class="sect3--title"><p>세계유산 미디어아트</p></div>
+                    <div class="sect3--box sect3--sub"><p>시민과 함께 즐기는 한밤의 힐링 축제로<br><b>시대의 소망을 담다</b></p></div>
+                </div>
                 <div class="sect3--box sect3--box3"><a href="/">행사개요 보기</a></div>
             </div>
         </div>
@@ -223,6 +229,12 @@
                 </div>
                 <div class="sect4--dish-container">
                     <div class="swiper mainSwiper1">
+                        <div class="main1-swiper-button">
+                            <div class="main1-swiper-buttonWrap">
+                                <div class="main1-swiper-button-prev"><img src="./common/img/swiper_prev.png" alt=""></div>
+                                <div class="main1-swiper-button-next"><img src="./common/img/swiper_next.png" alt=""></div>
+                            </div>
+                        </div>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="sect4--dish-thumb"></div>
@@ -255,8 +267,7 @@
                                 <div class="sect4--dish-text7">#맛집</div>
                             </div>
                         </div>
-                        <div class="main1-swiper-button-next"></div>
-                        <div class="main1-swiper-button-prev"></div>
+                        <a class="sect4--dish-text4" href="/">전체보기</a>
                       </div>
                 </div>
             </div>
@@ -341,6 +352,7 @@
         </div>
     </div>
     <div id="header"></div>
+    <script src="./common/js/gsap.js"></script>
     <script src="./common/js/swiper.js"></script>
     <script src="./common/js/main.js"></script>
 </body>
