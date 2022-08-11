@@ -1,3 +1,19 @@
+const sect5 = document.getElementById("sect5")
+const header = document.getElementById("head")
+var headH = header.clientHeight
+var sect5Top = Number(sect5.offsetTop)
+var winTop = window.scrollY
+window.addEventListener("scroll",function(){
+    winTop = window.scrollY
+    if(winTop>sect5Top - headH){
+        header.classList.add("white")
+        header.classList.remove("black")
+    }else{
+        header.classList.add("black")
+        header.classList.remove("white")
+    }
+})
+
 const sect4EventButtons = document.querySelectorAll(".sect4--event-buttonItem")
 const sect4EventImgs = document.querySelectorAll(".sect4--event-imgItem")
 
